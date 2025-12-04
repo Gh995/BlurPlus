@@ -1,0 +1,50 @@
+# -------------------------------------------------
+# BlurPlus Shaderpack - .gitignore
+# Keeps repo clean and professional
+# -------------------------------------------------
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE folders
+.vscode/
+.idea/
+*.iml
+
+# Build / temp folders
+out/
+build/
+bin/
+tmp/
+temp/
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Zip files (except your official releases)
+*.zip
+!BlurPlus.zip
+!release/*.zip
+
+# Minecraft / OptiFine junk files
+*.mcmeta
+*.cache
+shaderpacks/*.zip
+
+# Node / Python (if you ever add tools)
+node_modules/
+__pycache__/
+
+# Optional: ignore screenshots
+screenshots/
+*.png
+*.jpg
